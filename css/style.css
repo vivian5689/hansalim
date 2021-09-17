@@ -1,0 +1,147 @@
+@charset 'utf-8';
+@import url('font.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    letter-spacing: -0.0425rem;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Roboto', 'noto-latin-ko', '맑은고딕', sans-serif;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: -0.0375rem;
+    word-break: break-all;
+}
+
+/* 공통클래스 */
+.container {
+    position: relative;
+    display: block;
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* 전체레이 아웃 */
+.wrap {
+    position: relative;
+    display: block;
+}
+
+/* 상단 영역 */
+.header {
+    position: relative;
+    display: block;
+}
+
+/* 비주얼 영역 */
+.visual {
+    position: relative;
+    display: block;
+}
+
+/* 추천상품 영역 */
+.recommend {
+    position: relative;
+    display: block;
+}
+
+/* 알뜰용품 영역 */
+.sales {
+    position: relative;
+    display: block;
+}
+
+/* 새물품 영역 */
+.new {
+    position: relative;
+    display: block;
+}
+
+/* 추천물품 영역 */
+.pick {
+    position: relative;
+    display: block;
+}
+
+/* 인기물품 영역 */
+.famous {
+    position: relative;
+    display: block;
+}
+
+/* 브랜드관 영역 */
+.brand {
+    position: relative;
+    display: block;
+}
+
+/* 배너 영역 */
+.banner {
+    position: relative;
+    display: block;
+}
+
+/* 레시피 영역 */
+.recipe {
+    position: relative;
+    display: block;
+}
+
+/* 후기 영역 */
+.review {
+    position: relative;
+    display: block;
+}
+
+/* 커뮤니티 영역 */
+.community {
+    position: relative;
+    display: block;
+}
+
+/* 하단 영역 */
+.footer {
+    position: relative;
+    display: block;
+}
